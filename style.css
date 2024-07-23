@@ -87,7 +87,7 @@ header{
     width: 50px;
     float: right;
     border:2px solid #7C7FBB;
-    background-color: #7C7FBB;
+    background-color: #A5D1FA;
     margin-right: 10px;
     font-size: 20px;
     color: #7C7FBB;
@@ -98,7 +98,7 @@ header{
 }
 
 .div1,.div3,.div5{
-    background-color: #ABBB7C;
+    background-color: #A5D1FA;
     width: 300px;
     height: 300px;
     margin-left: 120px;
@@ -110,7 +110,7 @@ header{
 }
 
 .div2,.div4,.div6{
-    background-color: #7C7FBB;
+    background-color: #A5D1FA;
     width: 300px;
     height: 300px;
     margin-right: 120px;
@@ -127,4 +127,40 @@ h3{
 
 li{
     font-size: 20px;
+}
+
+
+
+
+.container {
+    width: 120px; height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    perspective: 200px;
+    background-color: #7C7FBB;
+}
+
+.block {
+    height: 60px;
+    border-radius: 10px;
+    margin: 3em;
+    background: #7C7FBB;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.second {
+    transform-style: flat;
+    background-size: cover;
+    background-position: center;
+    border: 3px solid #eaeaea;
+    align-items: center;
+}
+
+.inner {
+    border-radius: 10px;
+    display: flex;
+    color: white;
+    align-items: center;
 }
